@@ -121,3 +121,34 @@ void main()
     scanf("%d",&quantum);
     roundRobin(processes,n,burst_time,quantum,arrival_time,prioritylist);
 }
+
+
+//
+Enter the number of processes: 4
+Enter the arrival time for process 1:2
+Enter the Burst time for processes 1:1
+Enter the priority for process 1:1
+Enter the arrival time for process 2:1
+Enter the Burst time for processes 2:5
+Enter the priority for process 2:1
+Enter the arrival time for process 3:4
+Enter the Burst time for processes 3:1
+Enter the priority for process 3:1
+Enter the arrival time for process 4:2
+Enter the Burst time for processes 4:6
+Enter the priority for process 4:1
+Enter the time quantum for round robin: 2
+
+ROund RObin algorithm
+Processes       AT      BT      Priority        WT      TAT     CT      RT
+1               2       1       1               3       4       6       3
+2               1       5       1               6       11      12      0
+3               4       1       1               4       5       9       4
+4               2       6       1               6       12      14      1
+AVG waiting time: 4.750000
+AVG turnaround time: 8.000000
+AVG Response time: 2.000000
+Total Idle time: 1
+
+[1] + Done                       "/usr/bin/gdb" --interpreter=mi --tty=${DbgTerm} 0<"/tmp/Microsoft-MIEngine-In-gd0m452e.mtv" 1>"/tmp/Microsoft-MIEngine-Out-r5lhdbem.h3i"
+@sanjanacrao ➜ /workspaces/OS (main) $ 
