@@ -30,4 +30,41 @@ int main() {
   return 0;
 }
 
- 
+
+Enter the total number of Processes: 4
+
+Please Enter the  Burst Time and Priority of each process:
+
+Enter the details of the process A 
+Enter the burst time: 1
+Enter the priority: 1
+
+Enter the details of the process B 
+Enter the burst time: 5
+Enter the priority: 1
+
+Enter the details of the process C 
+Enter the burst time: 1
+Enter the priority: 1
+
+Enter the details of the process D 
+Enter the burst time: 6
+Enter the priority: 1
+
+
+Process_name     Burst Time      Waiting Time     Turnaround Time
+------------------------------------------------------------
+          A               1              0               1
+-----------------------------------------------------------
+          B               5              1               6
+-----------------------------------------------------------
+          C               1              6               7
+-----------------------------------------------------------
+          D               6              7               13
+-----------------------------------------------------------
+
+
+ Average Waiting Time : 3.500000
+ Average Turnaround Time: 6.750000
+[1] + Done                       "/usr/bin/gdb" --interpreter=mi --tty=${DbgTerm} 0<"/tmp/Microsoft-MIEngine-In-0zcy5ln1.zuq" 1>"/tmp/Microsoft-MIEngine-Out-jhu1fvvc.5gq"
+@sanjanacrao ➜ /workspaces/OS (main) $ 
